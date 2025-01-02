@@ -84,13 +84,6 @@ export const Timer: React.FC<Props> = ({ time, mutate, run }) => {
           Seconds &mdash; 0 - 99
         </p>
       </time>
-      <time className="grid items-end gap-2">
-        <div className="w-9">
-          <p className="p-1 text-sm font-medium border rounded-lg shadow-sm select-none mb-7 text-end bg-muted text-muted-foreground tabular-nums">
-            {time.milliseconds}
-          </p>
-        </div>
-      </time>
     </section>
   );
 };
